@@ -1,3 +1,3 @@
 # Eset_Landing-page
 
-[Demo](https://grant-inna.github.io/Eset_desktop/.)
+[Demo](https://grant-inna.github.io/Eset_desktop/header.html)
