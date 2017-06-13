@@ -502,6 +502,14 @@ p {
   margin-bottom: 5%;
 }
 
+.captcha__num {
+  width: 100%;
+}
+
+.b-common-ctrl {
+  width: 62%;
+}
+
 @media screen and (min-width: 300px) and (orientation: portrait) {
   .slogan__title {
     font-size: 0;

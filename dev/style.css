@@ -478,8 +478,6 @@ p
     align-items: flex-start;
     justify-content: space-between;
     flex-direction: column;
-
-
 }
 .captcha__inputWrapper {
 
@@ -489,8 +487,12 @@ p
     align-items: center;
     justify-content: center;
     margin-bottom: 5%;
-
-
+}
+.captcha__num {
+    width: 100%;
+}
+.b-common-ctrl {
+    width: 62%;
 }
 
 
