@@ -469,6 +469,7 @@ p
     justify-content: center;
 
     padding-bottom: 5%;
+    padding-top: 3%;
 
     font-size: 1.2rem;
 }
@@ -870,7 +871,7 @@ p
     }
     .face__wrapper
     {
-        height: 90%;
+        height: 94%;
     }
     .title__text
     {
@@ -1015,7 +1016,7 @@ p
     }
     .face
     {
-        height: 340px;
+        height: initial;
     }
     .price
     {

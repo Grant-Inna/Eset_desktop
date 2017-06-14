@@ -13,20 +13,9 @@ gulp.task('autoprefixer', function() {
         .pipe(gulp.dest('../css'))
         .pipe(notify('Autoprefixer Success!'));
 });
-gulp.task('minCss', function() {
-    return gulp.src('../css/style.css')
-        .pipe(cleanCSS())
-        .pipe(rename("style.min.css"))
-        .pipe(gulp.dest('../css'))
-        .pipe(notify('minCSS Success!'));
-});
-
 
 gulp.task('watch_autoprefixer', function() {
     gulp.watch('./style.css', ['autoprefixer'])
-});
-gulp.task('watch_min', function() {
-    gulp.watch('../css/style.css', ['minCss'])
 });
 
 
